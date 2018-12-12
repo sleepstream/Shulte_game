@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#E8E8E0</color>
+
+    <color name="red_press">#990000</color>
+    <color name="yellow_press">#FBC02D</color>
+    <color name="white">#fff</color>
+    <color name="separator_line">#000</color>
+
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorText">#165100</color>
+    <color name="colorTextError">#E65100</color>
+
+    <color name="colorSecondary">#FBC02D</color>
+    <color name="colorAccent">#F57F57</color>
+    <color name="colorNewAccent">#FF6F00</color>
+
+    <color name="side_nav_bar_center">#DD2C00</color>
+    <color name="side_nav_bar_end">#BF360C</color>
+    <color name="side_nav_bar_start">#FF9E80</color>
+    <color name="black">#000000</color>
+    <color name="Red">#FF0000</color>
+
+
+</resources>

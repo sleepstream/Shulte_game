@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent">
+
+        <android.support.design.widget.AppBarLayout
+                android:id="@+id/appBar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+            android:layout_below="@+id/appBar"
+            android:layout_margin="20dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+        <RelativeLayout
+                android:id="@+id/sendMessage"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+            <TextView
+                    android:id="@+id/sendMessageTitle"
+                    android:layout_alignParentStart="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/messageTitle"
+                    style="@style/TextMain"
+                    android:textSize="30sp"/>
+            <ImageButton
+                    android:id="@+id/sendButton"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_highlight"
+                    android:src="@drawable/round_send_black_48"/>
+        </RelativeLayout>
+        <View
+                android:id="@+id/line1"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/sendMessage"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/separator_line"/>
+        <RelativeLayout
+                android:layout_below="@+id/sendMessage"
+                android:layout_marginTop="20dp"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+
+            <android.support.design.widget.TextInputLayout
+                    android:id="@+id/spinner_layout"
+                    android:layout_alignParentTop="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/connect_with_dev_select_theme"
+                        style="@style/TextMain"
+                        android:textSize="15sp"/>
+                <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/TextMain">
+                </Spinner>
+
+            </android.support.design.widget.TextInputLayout>
+            <View
+                    android:id="@+id/line"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/spinner_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/separator_line"/>
+            <android.support.design.widget.TextInputLayout
+                    android:id="@+id/message_text_layout"
+                    android:layout_below="@+id/line"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    app:errorTextAppearance="@style/TextAlert">
+                <EditText
+                        android:id="@+id/message_text"
+                        android:inputType="textMultiLine"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="15"
+                        android:hint="@string/connect_with_dev_message_text_hint"
+                        android:textSize="17sp"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/connect_with_dev_message_text"
+                        style="@style/TextMain"
+                        android:textSize="15sp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageButton
+                    android:id="@+id/attacheImage"
+                    android:layout_below="@+id/message_text_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/round_add_a_photo_black_48"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

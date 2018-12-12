@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Таблицы Шульте</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Таблицы Шульте</string>
+    <string name="nav_header_subtitle">Развивайся с нами</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки</string>
+    <string name="startBtn">Начать Игру!</string>
+    <string name="gameOver">Вы проиграли!</string>
+    <string name="pleaseReplay">Попробуйте снова!</string>
+    <string name="youWin">Вы победили!</string>
+    <string name="yourResult">Ваш результат:</string>
+    <string name="minutes">мин.</string>
+    <string name="seconds">сек.</string>
+    <string name="simple4x4">Простая 4х4</string>
+    <string name="simple5x5">Простая 5х5</string>
+    <string name="simple6x6">Простая 6x6</string>
+    <string name="simple7x7">Простая 7х7</string>
+    <string name="timerTitleText">Прошло времени:</string>
+    <string name="nextItemTitle">Найди далее:</string>
+    <string name="reload">Перезапустить</string>
+    <string name="title_activity_settings">@string/action_settings</string>
+
+
+    <string-array name="game_size_list_titles">
+        <item>@string/game_size_3x3</item>
+        <item>@string/game_size_4x4</item>
+        <item>@string/game_size_5x5</item>
+        <item>@string/game_size_6x6</item>
+        <item>@string/game_size_7x7</item>
+        <item>@string/game_size_8x8</item>
+        <item>@string/game_size_9x9</item>
+        <item>@string/game_size_10x10</item>
+    </string-array>
+    <string-array name="game_size_list_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="contact_with_dev_themes_list">
+        <item>@string/contact_with_dev_problem</item>
+        <item>@string/contact_with_dev_advice</item>
+        <item>@string/contact_with_dev_other</item>
+    </string-array>
+
+    <string-array name="donation_google_catalog_values">
+        <item>1 USD</item>
+    </string-array>
+
+    <string name="pref_title_rotate_field">Вращать элементы</string>
+    <string name="pref_title_resSort_on_press">Перемешивать при нажатии</string>
+    <string name="pref_title_vibration_on_click">Вибротклик</string>
+    <string name="pref_description_vibration_on_click">Вибрировать при нажании на экран</string>
+    <string name="pref_description_resSort_on_press">При нажатии на найденный элемент - перестроить поле</string>
+    <string name="pref_description_rotate_field">Случайно поворачивать элемнты во время построения поля</string>
+    <string name="pref_title_game_size">Размер игрового поля</string>
+    <string name="game_size_4x4">4 Х 4</string>
+    <string name="game_size_3x3">3 Х 3</string>
+    <string name="game_size_5x5">5 Х 5</string>
+    <string name="game_size_6x6">6 Х 6</string>
+    <string name="game_size_7x7">7 Х 7</string>
+    <string name="game_size_8x8">8 Х 8</string>
+    <string name="game_size_9x9">9 Х 9</string>
+    <string name="game_size_10x10">10 Х 10</string>
+    <string name="try_this_app">Оличное приложение!</string>
+    <string name="share">Поделиться</string>
+    <string name="shareBody">Скачай приложение по ссылке:</string>
+    <string name="rate_for_app">Оценить приложение</string>
+    <string name="share_app">Поделиться</string>
+    <string name="linl_to_app">http://play.google.com/store/apps/details?id=</string>
+    <string name="other">Другое</string>
+    <string name="nav_write_to_dev">Замечания и предложения</string>
+    <string name="title_activity_connect_with_dev">Замечания и предложения</string>
+    <string name="connect_with_dev_message_text">Ваше послание разработчику</string>
+    <string name="connect_with_dev_message_text_hint">Текст сообщения</string>
+    <string name="contact_with_dev_problem">Проблема</string>
+    <string name="contact_with_dev_advice">Предложение</string>
+    <string name="contact_with_dev_other">Другое</string>
+    <string name="connect_with_dev_select_theme">Выберете тему сообщения</string>
+    <string name="messageTitle">Сообщение</string>
+    <string name="message_send_error">Минимальная длина сообщения</string>
+    <string name="symbols">символов</string>
+    <string name="select_app_for_email">Отправить с помощью:</string>
+    <string name="pref_title_color_field">Разноцветный текст</string>
+    <string name="pref_description_color_field">Текст в таблице разного цвета</string>
+    <string name="games">Режим игры</string>
+    <string name="nav_game_classic">Классическая таблица</string>
+    <string name="nav_game_red_n_black">Красно-Черная таблица</string>
+    <string name="title_activity_about">О приложении</string>
+    <string name="rate_about">О приложении</string>
+    <string name="donate">Отблагодарить</string>
+    <string name="title_activity_donations">Отблагодарить</string>
+
+
+
+
+    <string name="content_description_app_loading_image">Loading!</string>
+    <string name="button_buy">Buy!</string>
+    <string name="button_purchase">Покупка</string>
+    <string name="error_no_skus">Нет покупок</string>
+    <string name="error_billing_unavailable">Счет недоступен</string>
+    <string name="error_billing_default">Какая-то ошибка</string>
+    <string name="header_inapp">Разовая покупка</string>
+    <string name="header_subscriptions">Подписка</string>
+    <string name="alert_already_purchased">Уже оплачено</string>
+    <string name="button_own">Мое</string>
+    <string name="button_change">Купить</string>
+    <string name="alert_error_consuming">alert_error_consuming</string>
+    <string name="btnOk">OK</string>
+    <string name="donate_select_theme">Выберите приемлимую сумму</string>
+    <string name="button_donate">Google Pay</string>
+    <string name="donate_message">Спасибо, что выбрали мое приложение. Надеюсь оно вам понравилось.\nЕсли у вас есть
+        замечания по его работе вы можете оставить их в разделе обратной связи.\n
+        Если вы хотите поддержать дальнейшую разработку или просто поблагодарить разработчика, то вы можете пожертвовать небольшую сумму, воспользовавшись данной формой.
+    </string>
+    <string name="thanks_to_user">Я очень ценю вашу помощь, спасибо!</string>
+    <string name="contentDescription_for_gPay_button">Оплатить через Google Pay</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+
+    <item android:title="@string/games">
+        <menu>
+            <item
+                    android:id="@+id/classic"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_field_calssic"
+                    android:title="@string/nav_game_classic"/>
+            <item
+                    android:id="@+id/black_and_red"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_field_red_n_black"
+                    android:title="@string/nav_game_red_n_black"/>
+        </menu>
+    </item>
+    <item android:title="@string/action_settings">
+        <menu>
+            <item android:id="@+id/action_settings"
+                  android:title="@string/action_settings"
+                  android:icon="@drawable/round_settings_black_36"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                    android:id="@+id/nav_donate"
+                    android:icon="@drawable/round_attach_money_black_36"
+                    android:title="@string/donate"/>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/share_app"/>
+            <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/round_star_rate_black_36"
+                    android:title="@string/rate_for_app"/>
+            <item
+                    android:id="@+id/nav_write_to_dev"
+                    android:icon="@drawable/round_edit_black_36"
+                    android:title="@string/nav_write_to_dev"/>
+            <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/round_announcement_black_36"
+                    android:title="@string/rate_about"/>
+        </menu>
+    </item>
+
+</menu>

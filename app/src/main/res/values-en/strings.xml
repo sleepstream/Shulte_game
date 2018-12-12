@@ -1,0 +1,125 @@
+<resources>
+    <string name = "app_name"> Schulte Tables </string>
+        <string name = "navigation_drawer_open"> Open navigation drawer </string>
+        <string name = "navigation_drawer_close"> Close navigation drawer </string>
+        <string name = "nav_header_title"> Schulte Tables </string>
+        <string name = "nav_header_subtitle"> Grow with us </string>
+        <string name = "nav_header_desc"> Navigation header </string>
+        <string name = "action_settings"> Settings </string>
+        <string name = "startBtn"> Start the Game! </string>
+        <string name = "gameOver"> Game Over! </string>
+        <string name = "pleaseReplay"> Try again! </string>
+        <string name = "youWin"> you won! </string>
+        <string name = "yourResult"> Your result: </string>
+        <string name = "minutes"> min. </string>
+        <string name = "seconds"> seconds </string>
+        <string name = "simple4x4"> Simple 4x4 </string>
+        <string name = "simple5x5"> Simple 5x5 </string>
+        <string name = "simple6x6"> Simple 6x6 </string>
+        <string name = "simple7x7"> Simple 7x7 </string>
+        <string name = "timerTitleText"> Elapsed time: </string>
+        <string name = "nextItemTitle"> Find next: </string>
+        <string name = "reload"> Restart </string>
+        <string name = "title_activity_settings"> @string/action_settings </string>
+
+
+        <string-array name = "game_size_list_titles">
+            <item>@string/game_size_3x3 </item>
+            <item>@string/game_size_4x4 </item>
+            <item>@string/game_size_5x5 </item>
+            <item>@string/game_size_6x6 </item>
+            <item>@string/game_size_7x7 </item>
+            <item>@string/game_size_8x8 </item>
+            <item>@string/game_size_9x9 </item>
+            <item>@string/game_size_10x10 </item>
+        </string-array>
+        <string-array name = "game_size_list_values">
+            <item>3</item>
+            <item>4</item>
+            <item>5</item>
+            <item>6</item>
+            <item>7</item>
+            <item>8</item>
+            <item>9</item>
+            <item>10</item>
+        </string-array>
+
+        <string-array name = "contact_with_dev_themes_list">
+            <item> @string/contact_with_dev_problem </item>
+            <item> @string/contact_with_dev_advice </item>
+            <item> @string/contact_with_dev_other </item>
+        </string-array>
+
+        <string-array name = "donation_google_catalog_values">
+            <item> 1 USD </item>
+        </string-array>
+
+        <string name = "pref_title_rotate_field"> Rotate elements </string>
+        <string name = "pref_title_resSort_on_press"> Shuffle when pressed </string>
+        <string name = "pref_title_vibration_on_click"> Vibrate Tick </string>
+        <string name = "pref_description_vibration_on_click"> Vibrate when you tap the screen </string>
+        <string name = "pref_description_resSort_on_press"> When you click on a found item, rebuild the field </string>
+        <string name = "pref_description_rotate_field"> Randomly rotate elements during field construction </string>
+        <string name = "pref_title_game_size"> size of the playing field </string>
+        <string name = "game_size_4x4"> 4 X 4 </string>
+        <string name = "game_size_3x3"> 3 X 3 </string>
+        <string name = "game_size_5x5"> 5 X 5 </string>
+        <string name = "game_size_6x6"> 6 X 6 </string>
+        <string name = "game_size_7x7"> 7 X 7 </string>
+        <string name = "game_size_8x8"> 8 X 8 </string>
+        <string name = "game_size_9x9"> 9 X 9 </string>
+        <string name = "game_size_10x10"> 10 X 10 </string>
+        <string name = "try_this_app"> A great app! </string>
+        <string name = "share"> Share </string>
+        <string name = "shareBody"> Download the app here: </string>
+        <string name = "rate_for_app"> Rate application </string>
+        <string name = "share_app"> Share </string>
+        <string name = "linl_to_app"> http://play.google.com/store/apps/details?id= </string>
+        <string name = "other"> Other </string>
+        <string name = "nav_write_to_dev"> Comments and Suggestions </string>
+        <string name = "title_activity_connect_with_dev"> Comments and Suggestions </string>
+        <string name = "connect_with_dev_message_text"> Your message to the developer </string>
+        <string name = "connect_with_dev_message_text_hint"> Message text </string>
+        <string name = "contact_with_dev_problem"> Problem </string>
+        <string name = "contact_with_dev_advice"> Offer </string>
+        <string name = "contact_with_dev_other"> Other </string>
+        <string name = "connect_with_dev_select_theme"> Select the message subject </string>
+        <string name = "messageTitle"> Message </string>
+        <string name = "message_send_error"> Minimum message length </string>
+        <string name = "symbols"> characters </string>
+        <string name = "select_app_for_email"> Send with: </string>
+        <string name = "pref_title_color_field"> Multicolored text </string>
+        <string name = "pref_description_color_field"> Text in a table of different colors </string>
+        <string name = "games"> Game Mode </string>
+        <string name = "nav_game_classic"> Classic table </string>
+        <string name = "nav_game_red_n_black"> Red-Black Table </string>
+        <string name = "title_activity_about"> About the application </string>
+        <string name = "rate_about"> About the app </string>
+        <string name = "donate"> Thank You </string>
+        <string name = "title_activity_donations"> Thank You </string>
+
+
+
+
+        <string name = "content_description_app_loading_image"> Loading! </string>
+        <string name = "button_buy"> Buy! </string>
+        <string name = "button_purchase"> Purchase </string>
+        <string name = "error_no_skus"> No purchases </string>
+        <string name = "error_billing_unavailable"> Account unavailable </string>
+        <string name = "error_billing_default"> Some kind of error </string>
+        <string name = "header_inapp"> One-time purchase </string>
+        <string name = "header_subscriptions"> Subscription </string>
+        <string name = "alert_already_purchased"> Already paid </string>
+        <string name = "button_own"> Mine </string>
+        <string name = "button_change"> Buy </string>
+        <string name = "alert_error_consuming"> alert_error_consuming </string>
+        <string name = "btnOk"> OK </string>
+        <string name = "donate_select_theme"> Select an acceptable amount </string>
+        <string name = "button_donate"> Google Pay </string>
+        <string name = "donate_message"> Thank you for choosing my application. I hope you enjoyed it.\nIf you have
+            comments on his work, you can leave them in the feedback section.\n
+            If you want to support further development or simply thank the developer, then you can donate a small amount using this form.
+        </string>
+        <string name = "thanks_to_user"> I really appreciate your help, thanks! </string>
+        <string name="contentDescription_for_gPay_button">Process with Google Pay</string>
+</resources>

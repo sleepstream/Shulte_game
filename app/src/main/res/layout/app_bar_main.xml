@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <RelativeLayout
+            android:id="@+id/gameField"
+            android:layout_below="@+id/appBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal = "true"
+            android:gravity="center">
+        <georgearistov.shulte_game.GridViewEx
+                android:layout_margin="20dp"
+                android:id="@+id/gridView1"
+                android:stretchMode="columnWidth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        </georgearistov.shulte_game.GridViewEx>
+
+        <RelativeLayout
+                android:id="@+id/startButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/backgroundColor"
+                android:gravity="center"
+                android:visibility="gone">
+            <TextView
+                    android:id="@+id/startButtonText"
+                    style="@style/TextAlert"
+                    android:textSize="25sp"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/startBtn"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <ImageView
+                    android:layout_toEndOf="@+id/startButtonText"
+                    android:id="@+id/startButtonImage"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_game_start_btn"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/gameOver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/backgroundColor"
+                android:visibility="gone">
+            <RelativeLayout
+                    android:id="@+id/container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                <RelativeLayout
+                        android:id="@+id/youLoose"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:visibility="gone">
+                    <TextView
+                            android:id="@+id/gameOverText"
+                            style="@style/TextAlert"
+                            android:text="@string/gameOver"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:id="@+id/gameOverText1"
+                            android:layout_below="@+id/gameOverText"
+                            style="@style/TextAlert"
+                            android:text="@string/pleaseReplay"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </RelativeLayout>
+                <RelativeLayout
+                        android:id="@+id/youWin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:visibility="gone">
+                    <TextView
+                            android:id="@+id/youWinText"
+                            style="@style/TextAlert"
+                            android:text="@string/youWin"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:id="@+id/youWinText1"
+                            android:layout_below="@+id/youWinText"
+                            style="@style/TextAlert"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </RelativeLayout>
+            </RelativeLayout>
+            <ImageButton
+                    android:id="@+id/restartBtn"
+                    android:layout_below="@+id/container"
+                    android:src="@drawable/round_replay_black_36"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+            android:id="@+id/trackField"
+            android:layout_below="@+id/gameField"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal = "true"
+            android:visibility="gone">
+        <RelativeLayout
+                android:id="@+id/nextItemLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@color/backgroundColor">
+            <TextView
+                    android:id="@+id/nextItemTitle"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_centerVertical="true"
+                    style="@style/TextMain"
+                    android:text="@string/nextItemTitle"/>
+            <TextView
+                    android:id="@+id/nextItem"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/nextItemTitle"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    style="@style/bigDecorate"/>
+        </RelativeLayout>
+        <TextView
+                android:id="@+id/timerTitle"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/nextItemLayout"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@style/TextMain"
+                android:text="@string/timerTitleText"
+                android:gravity="center"/>
+        <Chronometer
+                android:id="@+id/timer"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/timerTitle"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@style/TextMain"
+                android:gravity="center"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
